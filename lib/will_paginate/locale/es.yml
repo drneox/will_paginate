@@ -1,0 +1,33 @@
+en:
+  will_paginate:
+    previous_label: "&#8592; Anterior"
+    next_label: "Siguiente &#8594;"
+    page_gap: "&hellip;"
+
+    page_entries_info:
+      single_page:
+        zero:  "No %{model} encontrado"
+        one:   "Viendo 1 %{model}"
+        other: "Viendo todos %{count} %{model}"
+      single_page_html:
+        zero:  "No %{model} found"
+        one:   "Viendo <b>1</b> %{model}"
+        other: "Viendo <b>all&nbsp;%{count}</b> %{model}"
+
+      multi_page: "Viendo %{model} %{from} - %{to} of %{count} en total"
+      multi_page_html: "Viendo %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> de <b>%{count}</b> en total"
+
+    # models:
+    #   entry:
+    #     zero:  entries
+    #     one:   entry
+    #     few:   entries
+    #     other: entries
+
+    # line_item:
+    #   page_entries_info:
+    #     single_page:
+    #       zero:  "Your shopping cart is empty"
+    #       one:   "Displaying one item in your cart"
+    #       other: "Displaying all %{count} items"
+    #     multi_page: "Displaying items %{from} - %{to} of %{count} in total"
